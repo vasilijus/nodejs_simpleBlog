@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-blog",
+  "version": "1.0.0",
+  "description": "simple blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "blog",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "Sergej Vasiljev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
