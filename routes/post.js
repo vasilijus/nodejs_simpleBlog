@@ -20,7 +20,7 @@ router.post('/', async (req, res) => {
 
 });
 // http:..localhost:5000/api/post/*id23* (DELETE)
-router.get('/:postId', async (req, res) => {
+router.delete('/:postId', async (req, res) => {
     Post.remove({_id: req.params.postId})
 })
 module.exports = router
